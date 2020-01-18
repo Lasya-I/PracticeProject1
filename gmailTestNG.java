@@ -62,7 +62,7 @@ public class gmailTestNG {
 		Assert.assertEquals(driver.findElement(By.xpath("//div[text()='New Message']")).isDisplayed(),true);
 		    
 		driver.findElement(By.xpath("//*[@name='to']")).sendKeys("savlas28112009@gmail.com");
-		driver.findElement(By.xpath("//*[@class='aoT']")).sendKeys("TestNG testmail1");
+		driver.findElement(By.xpath("//*[@class='aoT']")).sendKeys("Github testmail1");
 		Thread.sleep(8000);
 		driver.findElement(By.className("aoO")).click(); 
 		Thread.sleep(4000);
