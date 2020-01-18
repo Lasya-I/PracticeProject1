@@ -1,0 +1,21 @@
+<suite name="softwaretestingmaterial">
+
+	<test name="testngTest1">		
+		<classes>
+			<class name="ToolsQA.DemoMavenEclipseProject.eCommSite5" />
+		</classes>
+	</test>
+	
+	<test name="testngTest2">
+		<classes>
+			<class name="ToolsQA.DemoMavenEclipseProject.gmailTestNG" />
+		</classes>
+	</test>
+	
+	<test name="testngTest3">				
+		<classes>
+			<class name="ToolsQA.DemoMavenEclipseProject.GoogleLaunch" />
+		</classes>
+	</test>
+	
+</suite>
